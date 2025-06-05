@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Code and Verses - Shipra Yadav</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f8f8ff;
+      color: #222;
+    }
+    header {
+      background-color: #6c63ff;
+      color: #fff;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.3rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      font-style: italic;
+    }
+    nav {
+      background-color: #eee;
+      padding: 0.5rem 1rem;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+    }
+    nav a {
+      text-decoration: none;
+      color: #6c63ff;
+      font-weight: bold;
+    }
+    section {
+      padding: 2rem 1.5rem;
+    }
+    .poem, .contact-box {
+      background: #fff;
+      border-left: 5px solid #6c63ff;
+      padding: 1rem 1.5rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.08);
+    }
+    .poem:hover {
+      transform: scale(1.01);
+    }
+    .poem-title {
+      font-size: 1.4rem;
+      margin-bottom: 0.5rem;
+      color: #6c63ff;
+    }
+    .poem-content {
+      font-style: italic;
+    }
+    #about, #contact {
+      background-color: #f0f0ff;
+      border-radius: 10px;
+      padding: 2rem;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    }
+    footer {
+      background-color: #6c63ff;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Code and Verses</h1>
+    <p>Poetry and Projects by Shipra Yadav</p>
+  </header>
+
+  <nav>
+    <a href="#poems">Poems</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="poems">
+    <h2>Poetry</h2>
+
+    <div class="poem">
+      <div class="poem-title">Your Addiction</div>
+      <div class="poem-content">
+        “Your addiction — just infection of sublime yearning like a cancer,<br>
+        Just handicapped hate like stammering disorder.”
+      </div>
+      <p><em>– When you're in love with someone you don't have</em></p>
+    </div>
+
+    <div class="poem">
+      <div class="poem-title">The Silence Between Us</div>
+      <div class="poem-content">
+        “Not every distance is measured in miles,<br>
+        Sometimes it's the silence that separates souls.”
+      </div>
+      <p><em>– On unspoken love and fading connections</em></p>
+    </div>
+
+    <div class="poem">
+      <div class="poem-title">Stardust</div>
+      <div class="poem-content">
+        “We are not broken, we are just galaxies<br>
+        Trying to find light in each other's chaos.”
+      </div>
+      <p><em>– On healing and hope</em></p>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hi, I'm Shipra Yadav — a Diploma student in Information Technology at Government Girls Polytechnic, Varanasi. I'm passionate about coding and creative writing. I enjoy building simple web projects and writing emotionally charged poetry that reflects deep human experiences. I believe technology and art can coexist beautifully, and this site is my small attempt to show that fusion.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <div class="contact-box">
+      <p><strong>Email:</strong> <a href="mailto:yadavshipra690@gmail.com">yadavshipra690@gmail.com</a></p>
+      <p><strong>GitHub:</strong> <a href="https://github.com/CodesandVerses09" target="_blank">CodesandVerses09</a></p>
+      <p><strong>Phone:</strong> 7007674423</p>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 Shipra Yadav | Code and Verses
+  </footer>
+</body>
+</html>
